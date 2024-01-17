@@ -2,7 +2,7 @@ function Clothes({anyWordClothes}){
     return(
         <div className="products">
             {anyWordClothes.map(thing => {
-                const {id, name, searchTerm, price, image} = thing;
+                const {id, name, price, image} = thing;
                 return(
                     
                         <div key={id} className="product-card">
